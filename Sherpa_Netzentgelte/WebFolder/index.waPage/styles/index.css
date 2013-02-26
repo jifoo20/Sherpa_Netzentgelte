@@ -198,10 +198,10 @@
 }
 
 #dataGrid2 {
-	 top: 17px;
-	 bottom: -17px;
-	 left: 10px;
-	 right: -10px;
+	 top: 25px;
+	 bottom: -25px;
+	 left: 9px;
+	 right: -9px;
 	
 	 position: absolute;
 	 font-size: 11px;
