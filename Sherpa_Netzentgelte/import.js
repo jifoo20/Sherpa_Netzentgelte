@@ -1,0 +1,1 @@
+﻿function import_plz () {var myfile = File("/PLZ_Rohdaten.txt");var z=ds.PLZ.all();z.remove();var stream = TextStream(myfile, "read", 100);var res=[];do {    var item = stream.read('\r');	res=item.split('\t');	if (res.length>=4 ) {		var z=ds.PLZ.createEntity();		z.PLZ=res[0];			z.save();	};} while (item != '');stream.close();};import_plz();

@@ -1,0 +1,1 @@
+﻿addHttpRequestHandler('.*?/download_gas', 'Modules/download.js', 'sherpa_download_gas');addHttpRequestHandler('.*?/download_strom', 'Modules/download.js', 'sherpa_download_strom');directory.setLoginListener('my_login','Admin');

@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><breakpoints><breakpoint path="../Sherpa_Netzentgelte/import.js" line="4" content="var myfile = File(&quot;/PLZ_Rohdaten.txt&quot;);"/><breakpoint path="../Sherpa_Netzentgelte/lab.js" line="2" content=" var zz=ds.PLZ.query(&apos;PLZ = :1&apos;,&apos;71540&apos;);"/></breakpoints>
